@@ -1,0 +1,141 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #94bfac;
+}
+
+#hero {
+  height: 1000px;
+  background: url("../img/back.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#hero h1 {
+  margin: auto;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #eff2f5;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #45505b;
+}
+
+.section-title h2::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #0563bb;
+  bottom: 0;
+  left: calc(50% - 20px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.about img {
+  border-radius: 50%;
+}
+
+.skills .container .row .col {
+  font-size: 16px;
+  font-weight: 700;
+  margin: auto;
+  color: #45505b;
+}
+
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #45505b;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 2px solid #0563bb;
+  position: relative;
+}
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 25px;
+  left: -9px;
+  background: #fff;
+  border: 2px solid #0563bb;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #0563bb;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #f7f8f9;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.contact .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #0563bb;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  border-radius: 100px;
+  text-align: center;
+  margin: auto;
+}
+
+.contact .info p {
+  padding: auto;
+  font-size: 14px;
+  color: #728394;
+}
+
+.contact .info {
+  text-align: center;
+}
+
+.contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+  background: #0563bb;
+  color: #fff;
+  /* align-items: center; */
+}
